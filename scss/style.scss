@@ -1,0 +1,14 @@
+$theme-colors: (
+	"primary": #5e3671,
+	"secondary": #d0c5d7,
+	"white": #fff
+);
+
+$font-family-sans-serif: niveau-grotesk, sans-serif;
+$body-color: #414243;
+$enable-responsive-font-sizes: true;
+$modal-backdrop-opacity: 0.75;
+$modal-backdrop-bg: #000;
+
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+@import 'custom'
